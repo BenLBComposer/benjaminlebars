@@ -164,3 +164,35 @@ main {
       color: #8f00ff;
       text-decoration: underline;
     }
+
+    #actualites {
+  margin-top: 50px;
+}
+
+#actualites h2 {
+  color: #8f00ff;
+  border-bottom: 2px solid #00b4d8;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.actu {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 3px solid #00b4d8;
+  background: #1a1a2e;
+  border-radius: 6px;
+}
+
+.actu h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #4fc3f7;
+}
+
+.actu .date {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 10px;
+  font-style: italic;
+}

@@ -81,17 +81,17 @@
       text-shadow: 0 0 6px rgba(50, 130, 230, 0.7);
     }
 
-    main {
-      padding: 40px 20px;
-      max-width: 960px;
-      margin: -70px auto 60px auto;
-      background: #12122bdd;
-      border-radius: 10px;
-      box-shadow: 0 0 30px #3a0ca3cc;
-      position: relative;
-      z-index: 10;
-      color: #ddd;
-    }
+main {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: 0 auto 60px auto;
+  background: #12122bdd;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #3a0ca3cc;
+  position: relative;
+  z-index: 10;
+  color: #ddd;
+}
 
     section {
       margin-bottom: 50px;

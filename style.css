@@ -81,6 +81,24 @@
       text-shadow: 0 0 6px rgba(50, 130, 230, 0.7);
     }
 
+.lang-switch {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.lang-switch a {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.lang-switch a:hover {
+  color: #8f00ff;
+  text-decoration: underline;
+}
+
 main {
   padding: 40px 20px;
   max-width: 960px;

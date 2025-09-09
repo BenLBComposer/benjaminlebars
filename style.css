@@ -20,7 +20,7 @@
 .logo {
   display: block;
   margin: 0 auto;
-  max-width: 180px; /* taille par défaut */
+  max-width: 300px; /* taille par défaut */
   height: auto;
 }
 

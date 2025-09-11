@@ -17,19 +17,31 @@
       padding-left: 12px; /* espace après la bordure */
     }
 
-.logo {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px; /* taille par défaut */
-  height: auto;
-}
+    /* Style pour les h4 dans la section portfolio */
+    #portfolio h4 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1rem; /* un peu plus petit que h3 */
+      font-weight: 500;
+      color: #06425c; /* rappel de la couleur SoundCloud intégrée */
+      margin-top: 15px;
+      margin-bottom: 8px;
+      border-left: 3px solid #06425c; /* petite barre décorative */
+      padding-left: 8px;
+    }
 
-/* Quand l’écran est plus petit que 600px (smartphones) */
-@media (max-width: 600px) {
-  .logo {
-    max-width: 120px; /* logo réduit sur mobile */
-  }
-}
+    .logo {
+      display: block;
+      margin: 0 auto;
+      max-width: 300px; /* taille par défaut */
+      height: auto;
+    }
+
+    /* Quand l’écran est plus petit que 600px (smartphones) */
+    @media (max-width: 600px) {
+      .logo {
+        max-width: 120px; /* logo réduit sur mobile */
+      }
+    }
 
     body, html {
       height: 100%;
